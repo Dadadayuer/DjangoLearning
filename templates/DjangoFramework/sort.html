@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{%url 'sort'%}" method="post">{% csrf_token %}
+
+    <label>请输入数字序列，使用英文','隔开</label><textarea name="text_list"></textarea>
+    <button type="submit">进行排序</button>
+</form>
+<label>Result:{{ sortedStr }}</label>
+<label>共花费了{{ elspa }} ms</label>
+</body>
+</html>

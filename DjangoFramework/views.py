@@ -3,6 +3,7 @@ from django.template import loader
 from DjangoFramework.models import Question,Choice
 from django.shortcuts import render,get_object_or_404
 from django.urls import reverse
+import datetime
 
 
 def index(request):
@@ -56,5 +57,41 @@ def unvote(request,questio_id):
         selected_choice.votes -= 1
         selected_choice.save()
         return HttpResponseRedirect(reverse('results',args=(questio_id,)))
+def sort(request):
+    _str_sorted=''
+    elspa=0
+    if 'text_list' in request.POST:
+        _str_list = request.POST['text_list']
+        _text_list = _str_list.split(',')
+        start = datetime.datetime.now()
+        _str_sorted = quick_sort(_text_list)
+        end=datetime.datetime.now()
+
+        elspa = (end-start).microseconds
+    return render(request,'DjangoFramework/sort.html',{'sortedStr':_str_sorted,'elspa':elspa})
+
+
+
+
+
+def quick_sort(list):
+    if len(list) <2:
+        return  list
+    low, high = [],[]
+    mid = list[len(list)//2]
+    list.remove(mid)
+    for element in list:
+        if int(element) >= int(mid):
+            high.append(element)
+        else:
+            low.append(element)
+
+    return quick_sort(low) +[mid] +quick_sort(high)
+
+
+
+
+
+
 
 

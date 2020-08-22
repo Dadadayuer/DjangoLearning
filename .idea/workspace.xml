@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec55c55e-2faa-47e7-a721-b7cd36b91146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/DjangoFramework/sort.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFramework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFramework/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFramework/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFramework/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFramework/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFramework/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -57,8 +55,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Learning" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -197,6 +195,9 @@
       <workItem from="1597737531747" duration="9375000" />
       <workItem from="1597821853513" duration="13065000" />
       <workItem from="1597928569512" duration="6666000" />
+      <workItem from="1598064421453" duration="1374000" />
+      <workItem from="1598065898907" duration="19000" />
+      <workItem from="1598071276313" duration="7729000" />
     </task>
     <servers />
   </component>

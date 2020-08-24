@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec55c55e-2faa-47e7-a721-b7cd36b91146" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/e_mail/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/e_mail/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFramework/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFramework/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFramework/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFramework/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFramework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFramework/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_mail/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_mail/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_mail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -198,6 +204,8 @@
       <workItem from="1598064421453" duration="1374000" />
       <workItem from="1598065898907" duration="19000" />
       <workItem from="1598071276313" duration="7729000" />
+      <workItem from="1598176448790" duration="602000" />
+      <workItem from="1598238834790" duration="10608000" />
     </task>
     <servers />
   </component>

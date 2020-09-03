@@ -1,10 +1,11 @@
 from django.db import models
+import django.utils.timezone as timezone
 
 # Create your models here.
 
 class User(models.Model):
     username = models.EmailField(blank=False)
-    create_date = models.DateTimeField('创建日期')
+    create_date = models.DateTimeField('创建日期',default=timezone.now())
     is_del=models.IntegerField(default=0)
     frozen=models.IntegerField(default=0)
     password = models.CharField(max_length=60,blank=False)
@@ -12,7 +13,7 @@ class User(models.Model):
 
 class Inbox(models.Model):
     sender = models.CharField(max_length=100)
-    receive_date = models.DateTimeField('创建日期')
+    receive_date = models.DateTimeField('创建日期',default=timezone.now())
     subject = models.CharField(max_length=200)
     content = models.CharField(max_length=256)
     attachment = models.FilePathField(default='')
@@ -23,7 +24,7 @@ class Drafts(models.Model):
     to = models.CharField(max_length=100)
     subject = models.CharField(max_length=200)
     content = models.CharField(max_length=256)
-    create_date =models.DateTimeField('创建日期')
+    create_date =models.DateTimeField('创建日期',default=timezone.now())
     attachment = models.FilePathField(default='')
     is_del = models.IntegerField(default=0)
 
@@ -32,6 +33,6 @@ class Outbox(models.Model):
     to = models.CharField(max_length=100)
     subject = models.CharField(max_length=200)
     content = models.CharField(max_length=256)
-    create_date =models.DateTimeField('创建日期')
+    create_date =models.DateTimeField('创建日期',default=timezone.now())
     attachment = models.FilePathField(default='')
     is_del = models.IntegerField(default=0)

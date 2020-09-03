@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ec55c55e-2faa-47e7-a721-b7cd36b91146" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFramework/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFramework/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_mail/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_mail/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_mail/sqlHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/sqlHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_mail/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e_mail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gmail" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -203,6 +206,10 @@
       <workItem from="1598176448790" duration="602000" />
       <workItem from="1598238834790" duration="10608000" />
       <workItem from="1598405242551" duration="10704000" />
+      <workItem from="1598502658971" duration="2096000" />
+      <workItem from="1598582715785" duration="12170000" />
+      <workItem from="1598944183940" duration="73000" />
+      <workItem from="1599141581552" duration="6936000" />
     </task>
     <servers />
   </component>
@@ -232,19 +239,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/e_mail/views.py</url>
-          <line>9</line>
+          <line>20</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/e_mail/login.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DjangoFramework$Debug.coverage" NAME="Debug Coverage Results" MODIFIED="1598429204945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DjangoFramework$Debug.coverage" NAME="Debug Coverage Results" MODIFIED="1599150646328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DjangoFramework$views.coverage" NAME="views Coverage Results" MODIFIED="1597572288966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DjangoFramework" />
     <SUITE FILE_PATH="coverage/DjangoFramework$manage.coverage" NAME="manage Coverage Results" MODIFIED="1597829277584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

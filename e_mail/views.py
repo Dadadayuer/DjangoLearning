@@ -70,14 +70,11 @@ def bind_email_login(request):
         if mailname == 'qq':
             host = Mail.Mail_host.host_imap_QQ.value
             port = Mail.Mail_port.port_imap_QQ.value
-        logging.warning(host)
-        logging.warning(port)
-        logging.warning(username)
-        logging.warning(password)
         mail =Mail.Mail()
         try:
             mail.connect(host,port)
             check_state = mail.login(username,password)
+            mail.fetch_mailboxes()
         except Exception as e:
             return JsonResponse({
                 'code': 200,
@@ -92,6 +89,8 @@ def bind_email_login(request):
             'code': 200,
             'message': '请提交multipart/form-data类型表单！',
         })
+
+def getMail(mail):
 
 
 

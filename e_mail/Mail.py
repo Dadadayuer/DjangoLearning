@@ -46,6 +46,15 @@ class Mail():
         return self.logged_in
 
 
+    def fetch_mailboxes(self):
+        response, mailbox_list =self.imap.list()
+        if response == 'OK':
+            for mailbox in mailbox_list:
+                mailbox_name = str(mailbox).split('"/"')[-1].replace('"', '').replace('\'','').strip()
+                mailbox_name = str(mailbox).split('"/"')[-1].replace('"','').replace('\'','').strip()
+                self.mailboxes[mailbox_name]=None
+                print(mailbox_name)
+
 
 
 

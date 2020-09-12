@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec55c55e-2faa-47e7-a721-b7cd36b91146" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e_mail/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e_mail/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e_mail/sqlHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/sqlHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e_mail/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_mail/Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/Mail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e_mail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gmail" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,6 +209,10 @@
       <workItem from="1598582715785" duration="12170000" />
       <workItem from="1598944183940" duration="73000" />
       <workItem from="1599141581552" duration="6936000" />
+      <workItem from="1599204212088" duration="5575000" />
+      <workItem from="1599290078084" duration="7492000" />
+      <workItem from="1599468430945" duration="5528000" />
+      <workItem from="1599916874327" duration="2959000" />
     </task>
     <servers />
   </component>
@@ -246,7 +249,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DjangoFramework$Debug.coverage" NAME="Debug Coverage Results" MODIFIED="1599150646328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DjangoFramework$Debug.coverage" NAME="Debug Coverage Results" MODIFIED="1599917426958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DjangoFramework$views.coverage" NAME="views Coverage Results" MODIFIED="1597572288966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DjangoFramework" />
     <SUITE FILE_PATH="coverage/DjangoFramework$manage.coverage" NAME="manage Coverage Results" MODIFIED="1597829277584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

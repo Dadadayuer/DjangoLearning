@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec55c55e-2faa-47e7-a721-b7cd36b91146" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoFramework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e_mail/Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/Mail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e_mail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_mail/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -213,6 +210,10 @@
       <workItem from="1599290078084" duration="7492000" />
       <workItem from="1599468430945" duration="5528000" />
       <workItem from="1599916874327" duration="2959000" />
+      <workItem from="1599999676592" duration="1485000" />
+      <workItem from="1600073380311" duration="2615000" />
+      <workItem from="1601018546682" duration="3274000" />
+      <workItem from="1601029380709" duration="2202000" />
     </task>
     <servers />
   </component>

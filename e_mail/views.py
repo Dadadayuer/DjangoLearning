@@ -90,7 +90,7 @@ def bind_email_login(request):
             'message': '请提交multipart/form-data类型表单！',
         })
 
-def getMail(mail):
+# def getMail(mail):
 
 
 
